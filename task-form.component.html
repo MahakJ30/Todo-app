@@ -1,0 +1,12 @@
+<h2>Task Form</h2>
+<form (ngSubmit)="saveTask()">
+  <label>Title:</label>
+  <input [(ngModel)]="task.title" name="title" required>
+
+  <label>Description:</label>
+  <input [(ngModel)]="task.description" name="description" required>
+
+  <button type="submit">{{ task.id ? 'Update' : 'Add' }} Task</button>
+</form>
+
+
