@@ -1,1 +1,1 @@
-# Todo-app
+This project is a simple To-Do List Application built using Angular. It allows users to create, read, update, and delete (CRUD) tasks. The application features a responsive design that works well on both desktop and mobile devices.# Todo-app
